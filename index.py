@@ -8,6 +8,6 @@ def final_score(touchdowns, after_points, two_point_con, field_goals):
     two_point_con = two_point_con * 2
     field_goals = field_goals * 3
     total_points = touchdowns + after_points + two_point_con + field_goals
-    return total_points
+    return f"The teams final score is {total_points}"
 
 print(final_score(1,1,1,1,))
